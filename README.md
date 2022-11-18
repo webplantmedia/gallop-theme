@@ -1,1 +1,2 @@
-# gallop-theme
+# Gallop Theme
+
