@@ -96,7 +96,17 @@
       "fluid": true,
       "fontFamilies": [
         {
-          "fontFamily": "mencken-std, sans-serif;",
+          "fontFamily": "\"muli\"",
+          "name": "Muli",
+          "slug": "muli"
+        },
+        {
+          "fontFamily": "catamaran",
+          "name": "Catamaran",
+          "slug": "catamaran"
+        },
+        {
+          "fontFamily": "\"mencken-std\"",
           "name": "Mencken",
           "slug": "mencken"
         },
