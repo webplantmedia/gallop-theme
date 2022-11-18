@@ -1,3 +1,1 @@
 # Gallop Theme
-
-test2
