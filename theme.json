@@ -21,7 +21,8 @@
   "settings": {
     "appearanceTools": true,
     "custom": {
-      "menu-bar-height": "94px"
+      "menu-bar-height": "120px",
+      "menu-bar-sticky-height": "94px"
     },
     "color": {
       "palette": [
@@ -308,8 +309,10 @@
               }
             },
             "typography": {
-              "textDecoration": "none",
-              "fontSize": "var(--wp--preset--font-size--small)"
+              "fontFamily": "var(--wp--preset--font-family--catamaran)",
+              "fontSize": "var(--wp--preset--font-size--small)",
+              "fontWeight": "normal",
+              "textDecoration": "none"
             }
           }
         },
@@ -601,15 +604,14 @@
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--catamaran)",
           "fontSize": "var(--wp--preset--font-size--small)",
-          "fontWeight": "normal",
-          "lineHeight": "1"
+          "fontWeight": "normal"
         },
         "spacing": {
           "padding": {
-            "bottom": "0.667em",
-            "left": "1.667em",
-            "right": "1.667em",
-            "top": "0.667em"
+            "bottom": "0.5em",
+            "left": "1.8em",
+            "right": "1.8em",
+            "top": "0.5em"
           }
         },
         "color": {
