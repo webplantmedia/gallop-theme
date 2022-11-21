@@ -21,6 +21,7 @@
   "settings": {
     "appearanceTools": true,
     "custom": {
+      "label-letter-spacing": "1px",
       "menu-bar-height": "130px",
       "menu-bar-sticky-height": "94px",
       "border-radius-large": "50px",
@@ -651,48 +652,66 @@
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--mencken)",
           "fontSize": "3.625rem",
-          "lineHeight": "1.2"
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
+          "fontWeight": "500",
+          "textTransform": "none"
         }
       },
       "h2": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--catamaran)",
           "fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)",
-          "lineHeight": "1.2"
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
+          "fontWeight": "400",
+          "textTransform": "none"
         }
       },
       "h3": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--muli)",
-          "fontWeight": "500",
-          "fontSize": "var(--wp--preset--font-size--x-large)",
+          "fontSize": "20px",
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
+          "fontWeight": "600",
           "textTransform": "uppercase"
         }
       },
       "h4": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--muli)",
+          "fontSize": "24px",
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
           "fontWeight": "700",
-          "fontSize": "var(--wp--preset--font-size--large)"
+          "textTransform": "none"
         }
       },
       "h5": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontFamily": "var(--wp--preset--font-family--muli)",
+          "fontSize": "18px",
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
           "fontWeight": "700",
           "textTransform": "uppercase"
         }
       },
       "h6": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
-          "textTransform": "uppercase"
+          "fontFamily": "var(--wp--preset--font-family--muli)",
+          "fontSize": "18px",
+          "lineHeight": "1.2",
+          "letterSpacing": "normal",
+          "fontWeight": "700",
+          "textTransform": "none"
         }
       },
       "heading": {
         "typography": {
           "fontWeight": "400",
-          "lineHeight": "1.4"
+          "lineHeight": "1.2"
         }
       },
       "link": {
