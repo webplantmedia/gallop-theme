@@ -63,7 +63,7 @@
           "slug": "contrast"
         },
         {
-          "color": "#cccccc",
+          "color": "#edecee",
           "name": "Border",
           "slug": "border"
         },
@@ -723,7 +723,7 @@
       "h6": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--muli)",
-          "fontSize": "18px",
+          "fontSize": "22px",
           "lineHeight": "1.2",
           "letterSpacing": "normal",
           "fontWeight": "700",
