@@ -53,6 +53,31 @@
           "slug": "third"
         },
         {
+          "color": "#F2F1E8",
+          "name": "Fourth",
+          "slug": "fourth"
+        },
+        {
+          "color": "#666666",
+          "name": "Fifth",
+          "slug": "fifth"
+        },
+        {
+          "color": "#8D021F",
+          "name": "Sixth",
+          "slug": "sixth"
+        },
+        {
+          "color": "#E44844",
+          "name": "Seventh",
+          "slug": "seventh"
+        },
+        {
+          "color": "#FF8444",
+          "name": "Eighth",
+          "slug": "eighth"
+        },
+        {
           "color": "#ffffff",
           "name": "Base",
           "slug": "base"
