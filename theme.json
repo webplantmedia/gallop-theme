@@ -33,7 +33,11 @@
       "border-radius": "14px",
       "border-radius-small": "7px",
       "form-radius": "99em",
-      "button-radius": "99em"
+      "button-radius": "99em",
+      "button-top-padding": "0.5em",
+      "button-bottom-padding": "1.8em",
+      "button-left-padding": "1.8em",
+      "button-right-padding": "0.5em"
     },
     "color": {
       "palette": [
@@ -664,10 +668,10 @@
         },
         "spacing": {
           "padding": {
-            "bottom": "0.5em",
-            "left": "1.8em",
-            "right": "1.8em",
-            "top": "0.5em"
+            "bottom": "calc(0.5em + 2px)",
+            "left": "calc(1.8em + 2px)",
+            "right": "calc(1.8em + 2px)",
+            "top": "calc(0.5em + 2px)"
           }
         },
         "color": {
@@ -704,7 +708,7 @@
           "fontSize": "3.125rem",
           "lineHeight": "1.2",
           "letterSpacing": "normal",
-          "fontWeight": "500",
+          "fontWeight": "400",
           "textTransform": "none"
         }
       },
