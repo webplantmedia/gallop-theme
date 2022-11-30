@@ -345,11 +345,6 @@
   },
   "styles": {
     "blocks": {
-      "core/image": {
-        "border": {
-          "radius": "var(--wp--custom--border-radius)"
-        }
-      },
       "gallop/menu-bar": {
         "elements": {}
       },
