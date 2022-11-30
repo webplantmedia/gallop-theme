@@ -37,7 +37,10 @@
       "button-top-padding": "0.5em",
       "button-bottom-padding": "1.8em",
       "button-left-padding": "1.8em",
-      "button-right-padding": "0.5em"
+      "button-right-padding": "0.5em",
+      "box-shadow": "0 2px 30px 0 rgba(0, 0, 0, 0.07)",
+      "box-shadow-hover": "0 2px 30px 0 rgba(0, 0, 0, 0.15)",
+      "border-width": "1px"
     },
     "color": {
       "palette": [
@@ -342,6 +345,11 @@
   },
   "styles": {
     "blocks": {
+      "core/image": {
+        "border": {
+          "radius": "var(--wp--custom--border-radius)"
+        }
+      },
       "gallop/menu-bar": {
         "elements": {}
       },
