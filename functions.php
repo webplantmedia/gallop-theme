@@ -8,6 +8,7 @@ function gallop_theme_enqueue_fonts()
 	// wp_enqueue_style('gallop-theme-custom-fonts', 'https://use.typekit.net/zho6vbm.css', array(), '1.2');
 
 	wp_enqueue_style('gallop-theme-custom-fonts', get_stylesheet_directory_uri() . '/assets/css/fonts.css', array(), '1.0');
+	wp_enqueue_style('gallop-theme-leftquote', get_stylesheet_directory_uri() . '/assets/fonts/leftquote/stylesheet.css', array(), '1.0');
 }
 
 function gallop_theme_support()
@@ -17,6 +18,7 @@ function gallop_theme_support()
 	// add_editor_style("https://use.typekit.net/zho6vbm.css");
 
 	add_editor_style('assets/css/fonts.css');
+	add_editor_style('assets/fonts/leftquote/stylesheet.css');
 }
 
 add_action('after_setup_theme', 'gallop_theme_support');

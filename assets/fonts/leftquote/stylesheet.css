@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'leftquote';
+	src: url('leftquote.woff2') format('woff2'),
+		url('leftquote.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -152,7 +152,7 @@
     },
     "typography": {
       "dropCap": false,
-      "fluid": true,
+      "fluid": false,
       "fontFamilies": [
         {
           "fontFamily": "\"muli\", sans-serif",
@@ -605,20 +605,24 @@
       },
       "core/quote": {
         "border": {
-          "width": "1px"
+          "width": "0"
+        },
+        "typography": {
+          "fontSize": "1.5rem",
+          "fontFamily": "var(--wp--preset--font-family--muli)"
         },
         "elements": {
           "cite": {
             "typography": {
-              "fontSize": "var(--wp--preset--font-size--medium)",
+              "fontSize": "var(--wp--preset--font-size--large)",
               "fontStyle": "normal"
             }
           }
         },
         "spacing": {
           "padding": {
-            "left": "var(--wp--preset--spacing--30)",
-            "right": "var(--wp--preset--spacing--30)"
+            "left": "30px",
+            "right": "30px"
           }
         }
       },
@@ -718,7 +722,7 @@
       "h2": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--catamaran)",
-          "fontSize": "clamp(1.875rem, 1.875rem + ((1vw - 0.48rem) * 1.202), 2.5rem)",
+          "fontSize": "2.5rem",
           "lineHeight": "1.2",
           "letterSpacing": "normal",
           "fontWeight": "300",
