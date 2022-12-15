@@ -626,6 +626,36 @@
           }
         }
       },
+      "core/heading": {
+        "elements": {
+          "link": {
+            ":hover": {
+              "color": {
+                "text": "var(--wp--preset--color--secondary)"
+              },
+              "typography": {
+                "textDecoration": "none"
+              }
+            },
+            ":focus": {
+              "typography": {
+                "textDecoration": "underline dashed"
+              }
+            },
+            ":active": {
+              "color": {
+                "text": "var(--wp--preset--color--secondary)"
+              },
+              "typography": {
+                "textDecoration": "none"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
       "core/site-title": {
         "elements": {
           "link": {
