@@ -721,11 +721,11 @@
       },
       "h2": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--catamaran)",
+          "fontFamily": "var(--wp--preset--font-family--mencken)",
           "fontSize": "2.5rem",
           "lineHeight": "1.2",
           "letterSpacing": "normal",
-          "fontWeight": "300",
+          "fontWeight": "400",
           "textTransform": "none"
         }
       },
