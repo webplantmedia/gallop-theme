@@ -21,6 +21,11 @@
       "name": "transparent-menu",
       "postTypes": ["page"],
       "title": "Transparent Menu"
+    },
+    {
+      "name": "menu-with-shadow",
+      "postTypes": ["page"],
+      "title": "Menu with Shadow"
     }
   ],
   "settings": {
