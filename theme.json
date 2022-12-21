@@ -355,6 +355,15 @@
   },
   "styles": {
     "blocks": {
+      "gallop/event-time-range": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "400"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--secondary)"
+        }
+      },
       "gallop/menu-bar": {
         "elements": {}
       },
