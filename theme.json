@@ -57,6 +57,7 @@
         "textTransform": "none",
         "border-width": "1px",
         "radius": "99em",
+        "radiusTextarea": "14px",
         "padding": "13px 16px 11px"
       },
       "button": {
