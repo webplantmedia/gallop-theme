@@ -271,7 +271,7 @@
         }
       },
       "core/post-featured-image": {
-        "border": { "radius": "100px 0 0 0" },
+        "border": { "radius": "6rem 0 0 0" },
         "spacing": {
           "margin": {
             "bottom": "0px",
