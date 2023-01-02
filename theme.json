@@ -37,7 +37,6 @@
       "border-radius-large": "50px",
       "border-radius": "14px",
       "border-radius-small": "7px",
-      "form-radius": "99em",
       "button-radius": "99em",
       "button-top-padding": "0.5em",
       "button-bottom-padding": "1.8em",
@@ -45,7 +44,37 @@
       "button-right-padding": "0.5em",
       "box-shadow": "0 2px 30px 0 rgba(0, 0, 0, 0.07)",
       "box-shadow-hover": "0 2px 30px 0 rgba(0, 0, 0, 0.15)",
-      "border-width": "1px"
+      "border-width": "1px",
+      "form": {
+        "fontFamily": "var(--wp--preset--font-family--muli)",
+        "fontSize": "var(--wp--preset--font-size--medium)",
+        "fontSizeSmall": "var(--wp--preset--font-size--small)",
+        "fontWeight": "300",
+        "fontStyle": "normal",
+        "lineHeight": "1.6",
+        "letterSpacing": "normal",
+        "textDecoration": "normal",
+        "textTransform": "none",
+        "border-width": "1px",
+        "radius": "99em",
+        "padding": "13px 16px 11px"
+      },
+      "button": {
+        "fontFamily": "var(--wp--preset--font-family--catamaran)",
+        "fontSize": "var(--wp--preset--font-size--medium)",
+        "fontSizeSmall": "var(--wp--preset--font-size--small)",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "lineHeight": "1.6",
+        "letterSpacing": "normal",
+        "textDecoration": "normal",
+        "textTransform": "none",
+        "border-width": "1px",
+        "radius": "99em",
+        "padding": "0.5em 1.8em 0.5em 1.8em",
+        "paddingSmall": "9px 20px",
+        "paddingLarge": "24px 24px"
+      }
     },
     "color": {
       "palette": [
@@ -183,134 +212,6 @@
           "fontFamily": "\"mencken-std\", sans-serif",
           "name": "Mencken",
           "slug": "mencken"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "DM Sans",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": ["file:./assets/fonts/dm-sans/DMSans-Regular.woff2"]
-            },
-            {
-              "fontFamily": "DM Sans",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": ["file:./assets/fonts/dm-sans/DMSans-Regular-Italic.woff2"]
-            },
-            {
-              "fontFamily": "DM Sans",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": ["file:./assets/fonts/dm-sans/DMSans-Bold.woff2"]
-            },
-            {
-              "fontFamily": "DM Sans",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "700",
-              "src": ["file:./assets/fonts/dm-sans/DMSans-Bold-Italic.woff2"]
-            }
-          ],
-          "fontFamily": "\"DM Sans\", sans-serif",
-          "name": "DM Sans",
-          "slug": "dm-sans"
-        },
-        {
-          "fontFace": [
-            {
-              "fontDisplay": "block",
-              "fontFamily": "IBM Plex Mono",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "300",
-              "src": [
-                "file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2"
-              ]
-            },
-            {
-              "fontDisplay": "block",
-              "fontFamily": "IBM Plex Mono",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2"
-              ]
-            },
-            {
-              "fontDisplay": "block",
-              "fontFamily": "IBM Plex Mono",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2"
-              ]
-            },
-            {
-              "fontDisplay": "block",
-              "fontFamily": "IBM Plex Mono",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": [
-                "file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2"
-              ]
-            }
-          ],
-          "fontFamily": "'IBM Plex Mono', monospace",
-          "name": "IBM Plex Mono",
-          "slug": "ibm-plex-mono"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Inter",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "200 900",
-              "src": [
-                "file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf"
-              ]
-            }
-          ],
-          "fontFamily": "\"Inter\", sans-serif",
-          "name": "Inter",
-          "slug": "inter"
-        },
-        {
-          "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
-          "name": "System Font",
-          "slug": "system-font"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Source Serif Pro",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "200 900",
-              "src": [
-                "file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Source Serif Pro",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "200 900",
-              "src": [
-                "file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2"
-              ]
-            }
-          ],
-          "fontFamily": "\"Source Serif Pro\", serif",
-          "name": "Source Serif Pro",
-          "slug": "source-serif-pro"
         }
       ],
       "fontSizes": [
@@ -360,6 +261,14 @@
   },
   "styles": {
     "blocks": {
+      "core/search": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--muli)",
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "300",
+          "lineHeight": "1.6"
+        }
+      },
       "core/post-featured-image": {
         "border": { "radius": "100px 0 0 0" },
         "spacing": {
