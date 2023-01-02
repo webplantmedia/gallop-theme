@@ -58,7 +58,10 @@
         "border-width": "1px",
         "radius": "99em",
         "radiusTextarea": "14px",
-        "padding": "13px 16px 11px"
+        "padding": "calc(.5em + 1px) calc(1.1em + 1px)",
+        "buttonBaseColor": "var(--wp--preset--color--primary)",
+        "buttonContrastColor": "var(--wp--preset--color--contrast)",
+        "focusColor": "var(--wp--preset--color--secondary)"
       },
       "button": {
         "fontFamily": "var(--wp--preset--font-family--catamaran)",
@@ -70,9 +73,9 @@
         "letterSpacing": "normal",
         "textDecoration": "normal",
         "textTransform": "none",
-        "border-width": "1px",
+        "border-width": "2px",
         "radius": "99em",
-        "padding": "0.5em 1.8em 0.5em 1.8em",
+        "padding": "calc(0.5em + 2px) calc(1.8em + 2px)",
         "paddingSmall": "9px 20px",
         "paddingLarge": "24px 24px"
       }
