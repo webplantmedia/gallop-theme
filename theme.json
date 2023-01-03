@@ -290,7 +290,6 @@
           "lineHeight": "1.6"
         }
       },
-      "core/image": { "border": { "radius": "14px 14px 14px 14px" } },
       "core/post-featured-image": {
         "border": { "radius": "6rem 0 0 0" },
         "spacing": {
