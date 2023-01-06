@@ -7,7 +7,7 @@ Description: Gallop Theme is designed to take advantage of the new design tools 
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 5.6
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: gallop-theme
@@ -20,4 +20,17 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 }
 .post-meta-wrap > *:last-child::after {
   display: none;
+}
+.yoast-breadcrumbs {
+  /* font-size: var(--wp--preset--font-size--small); */
+  font-size: 0.75rem;
+}
+.yoast-breadcrumbs a {
+  text-decoration: none;
+}
+.taxonomy-post_tag.wp-block-post-terms::before {
+  content: "Tags: ";
+}
+.single .wp-block-image img {
+  border-radius: 14px;
 }
