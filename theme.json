@@ -792,7 +792,7 @@
           "lineHeight": "1.4",
           "letterSpacing": "normal",
           "fontWeight": "600",
-          "textTransform": "uppercase"
+          "textTransform": "none"
         }
       },
       "h5": {
@@ -802,7 +802,7 @@
           "lineHeight": "1.4",
           "letterSpacing": "normal",
           "fontWeight": "700",
-          "textTransform": "uppercase"
+          "textTransform": "none"
         }
       },
       "h6": {
