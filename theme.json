@@ -265,6 +265,14 @@
   },
   "styles": {
     "blocks": {
+      "gallop/landing-page-menu": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--catamaran)",
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "normal",
+          "textDecoration": "none"
+        }
+      },
       "core/spacer": {
         "spacing": {
           "margin": {
