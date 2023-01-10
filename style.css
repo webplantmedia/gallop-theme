@@ -34,3 +34,20 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .single .wp-block-image img {
   border-radius: 14px;
 }
+
+.wp-block-post.sticky {
+  display: relative;
+}
+.wp-block-post.sticky::after {
+  content: "Featured";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px 14px;
+  /* font-size: 0.8125rem; */
+  font-size: var(--wp--preset--font-size--small);
+  color: var(--wp--preset--color--contrast);
+  font-weight: 500;
+  background-color: var(--wp--preset--color--primary);
+  border-bottom-left-radius: 4px;
+}
