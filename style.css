@@ -31,7 +31,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .taxonomy-post_tag.wp-block-post-terms::before {
   content: "Tags: ";
 }
-.single .wp-block-image img {
+.single .wp-site-blocks > main .wp-block-image img {
   border-radius: 14px;
 }
 
