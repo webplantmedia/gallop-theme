@@ -7,7 +7,7 @@ Description: Gallop Theme is designed to take advantage of the new design tools 
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 5.6
-Version: 1.2
+Version: 1.3
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: gallop-theme
@@ -50,4 +50,84 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   font-weight: 500;
   background-color: var(--wp--preset--color--primary);
   border-bottom-left-radius: 4px;
+}
+
+.single-event .wp-site-blocks .share-after {
+  text-align: center;
+}
+
+.single-event .wp-site-blocks .share-after > *:last-child {
+  margin-right: 0;
+}
+
+.single-event .wp-site-blocks .wpforms-submit-container {
+  text-align: center;
+}
+
+.single-event .wp-site-blocks .event-form-heading {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.single-event .wp-site-blocks .event-over-message {
+  text-align: center;
+}
+.single-event .wp-site-blocks .event-over-message a {
+  color: #fff;
+}
+.single-event .wp-site-blocks .event-form-heading.event-over {
+  margin-bottom: 40px;
+}
+.single-event .wp-site-blocks #go {
+  scroll-margin-top: var(--wp--custom--menu-bar-sticky-height);
+}
+.single-event .wp-site-blocks .event-form-wrapper {
+  background-color: var(--wp--preset--color--primary);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  border-radius: var(--wp--custom--border-radius);
+}
+
+.single-event
+  .wp-site-blocks
+  .event-form-wrapper
+  .wpforms-confirmation-container-full {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .single-event .wp-site-blocks .event-form-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.single-event .wp-site-blocks .event-form-wrapper .event-form-image-wrap {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.single-event
+  .wp-site-blocks
+  .event-form-wrapper
+  .event-form-image-wrap.dots-background {
+  opacity: 0.1;
+  object-fit: cover;
+  height: 200%;
+  width: 200%;
+}
+
+.single-event .wp-site-blocks .event-form-wrapper .event-form-container {
+  position: relative;
+  z-index: 1;
 }
