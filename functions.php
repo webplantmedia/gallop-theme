@@ -9,7 +9,7 @@ function gallop_theme_enqueue_fonts()
 
 	wp_enqueue_style('gallop-theme-custom-fonts', get_stylesheet_directory_uri() . '/assets/css/fonts.css', array(), '1.0');
 	wp_enqueue_style('gallop-theme-leftquote', get_stylesheet_directory_uri() . '/assets/fonts/leftquote/stylesheet.css', array(), '1.0');
-	wp_enqueue_style('gallop-theme-style', get_stylesheet_directory_uri() . '/style.css', array(), '1.25');
+	wp_enqueue_style('gallop-theme-style', get_stylesheet_directory_uri() . '/style.css', array(), '1.26');
 }
 
 function gallop_theme_support()

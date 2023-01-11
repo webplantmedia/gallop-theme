@@ -49,7 +49,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   color: var(--wp--preset--color--contrast);
   font-weight: 500;
   background-color: var(--wp--preset--color--primary);
-  border-bottom-left-radius: 14px;
+  border-bottom-left-radius: var(--wp--custom--border-radius);
 }
 
 .single-event .wp-site-blocks .share-after {
