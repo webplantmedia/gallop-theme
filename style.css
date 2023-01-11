@@ -88,7 +88,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   padding-top: 40px;
   padding-bottom: 0px;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   position: relative;
   border-radius: var(--wp--custom--border-radius);
 }
